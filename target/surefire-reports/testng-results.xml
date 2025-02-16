@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T12:10:35 IST" name="Functional_TestsSuite" finished-at="2025-02-15T12:14:29 IST" duration-ms="233713">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T12:10:35 IST" name="EdgeTest" finished-at="2025-02-15T12:11:06 IST" duration-ms="31097">
+      <class name="demowebshop_seleniumTests.HomePage_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.HomePage_test@5ffead27]" started-at="2025-02-15T12:10:36 IST" name="setup" finished-at="2025-02-15T12:10:45 IST" duration-ms="9690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_homePagelinks()[pri:0, instance:demowebshop_seleniumTests.HomePage_test@5ffead27]" started-at="2025-02-15T12:10:45 IST" name="test_homePagelinks" finished-at="2025-02-15T12:10:58 IST" duration-ms="12302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_homePagelinks -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.HomePage_test@5ffead27]" started-at="2025-02-15T12:10:58 IST" name="tear_down" finished-at="2025-02-15T12:11:06 IST" duration-ms="8186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- demowebshop_seleniumTests.HomePage_test -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-02-15T12:10:35 IST" name="ChromeTest" finished-at="2025-02-15T12:14:29 IST" duration-ms="233713">
+      <class name="demowebshop_seleniumTests.MyaccountPage_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:10:37 IST" name="setup" finished-at="2025-02-15T12:10:48 IST" duration-ms="11132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myAccount_ChPas_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:10:48 IST" name="myAccount_ChPas_test" data-provider="get_excelData" finished-at="2025-02-15T12:10:58 IST" duration-ms="9719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New and confirm passwords mismatch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345643]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bvhjh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bjbjb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount_ChPas_test -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:10:58 IST" name="tear_down" finished-at="2025-02-15T12:11:03 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:03 IST" name="setup" finished-at="2025-02-15T12:11:08 IST" duration-ms="5271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myAccount_ChPas_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:08 IST" name="myAccount_ChPas_test" data-provider="get_excelData" finished-at="2025-02-15T12:11:15 IST" duration-ms="6395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank values for old, new and confirm password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount_ChPas_test -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:15 IST" name="tear_down" finished-at="2025-02-15T12:11:19 IST" duration-ms="3615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:19 IST" name="setup" finished-at="2025-02-15T12:11:21 IST" duration-ms="2807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myAccount_ChPas_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:21 IST" name="myAccount_ChPas_test" data-provider="get_excelData" finished-at="2025-02-15T12:11:30 IST" duration-ms="8557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[old password mismatch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23442df]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23442df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount_ChPas_test -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:30 IST" name="tear_down" finished-at="2025-02-15T12:11:34 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:34 IST" name="setup" finished-at="2025-02-15T12:11:38 IST" duration-ms="4766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myAccount_ChPas_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:38 IST" name="myAccount_ChPas_test" data-provider="get_excelData" finished-at="2025-02-15T12:11:44 IST" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[confirm password mismatch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76dsdjsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1223123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdsdds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount_ChPas_test -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:45 IST" name="tear_down" finished-at="2025-02-15T12:11:48 IST" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:49 IST" name="setup" finished-at="2025-02-15T12:11:53 IST" duration-ms="4605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add_dlt_address(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:11:53 IST" name="add_dlt_address" data-provider="get_excelData" finished-at="2025-02-15T12:12:03 IST" duration-ms="10011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sku@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sdsfsv]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_dlt_address -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:13:04 IST" name="tear_down" finished-at="2025-02-15T12:13:08 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:13:08 IST" name="setup" finished-at="2025-02-15T12:13:13 IST" duration-ms="5542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add_dlt_address(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:13:13 IST" name="add_dlt_address" data-provider="get_excelData" finished-at="2025-02-15T12:13:24 IST" duration-ms="11140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xml@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[dfsfdsf]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[423535]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_dlt_address -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:demowebshop_seleniumTests.MyaccountPage_test@5fe94a96]" started-at="2025-02-15T12:14:25 IST" name="tear_down" finished-at="2025-02-15T12:14:29 IST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- demowebshop_seleniumTests.MyaccountPage_test -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Functional_TestsSuite -->
+</testng-results>
